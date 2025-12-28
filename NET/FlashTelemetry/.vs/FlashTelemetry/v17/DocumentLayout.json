@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\net\\udpcontrolserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:net\\udpcontrolserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\net\\udpdatasender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:net\\udpdatasender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\protocol\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:protocol\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\protocol\\controlprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:protocol\\controlprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\profiles\\iprofilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:profiles\\iprofilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\profiles\\f124\\f124profilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:profiles\\f124\\f124profilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\profiles\\f124\\f124state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:profiles\\f124\\f124state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\profiles\\f124\\f124udpreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:profiles\\f124\\f124udpreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\profiles\\ets2\\ets2profilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:profiles\\ets2\\ets2profilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\profiles\\comingsoonprofilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:profiles\\comingsoonprofilemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\core\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\core\\profilecatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\profilecatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\githomeprime\\practicas\\net\\flashtelemetry\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:23:43.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UdpDataSender.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Net\\UdpDataSender.cs",
+              "RelativeDocumentMoniker": "Net\\UdpDataSender.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Net\\UdpDataSender.cs",
+              "RelativeToolTip": "Net\\UdpDataSender.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:25:35.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Protocol\\Messages.cs",
+              "RelativeDocumentMoniker": "Protocol\\Messages.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Protocol\\Messages.cs",
+              "RelativeToolTip": "Protocol\\Messages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:26:53.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UdpControlServer.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Net\\UdpControlServer.cs",
+              "RelativeDocumentMoniker": "Net\\UdpControlServer.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Net\\UdpControlServer.cs",
+              "RelativeToolTip": "Net\\UdpControlServer.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:25:44.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ControlProtocol.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Protocol\\ControlProtocol.cs",
+              "RelativeDocumentMoniker": "Protocol\\ControlProtocol.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Protocol\\ControlProtocol.cs",
+              "RelativeToolTip": "Protocol\\ControlProtocol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:28:42.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProfileModule.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\IProfileModule.cs",
+              "RelativeDocumentMoniker": "Profiles\\IProfileModule.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\IProfileModule.cs",
+              "RelativeToolTip": "Profiles\\IProfileModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:29:01.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "F124ProfileModule.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\F124\\F124ProfileModule.cs",
+              "RelativeDocumentMoniker": "Profiles\\F124\\F124ProfileModule.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\F124\\F124ProfileModule.cs",
+              "RelativeToolTip": "Profiles\\F124\\F124ProfileModule.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:38:12.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "F124State.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\F124\\F124State.cs",
+              "RelativeDocumentMoniker": "Profiles\\F124\\F124State.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\F124\\F124State.cs",
+              "RelativeToolTip": "Profiles\\F124\\F124State.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:38:24.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "F124UdpReceiver.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\F124\\F124UdpReceiver.cs",
+              "RelativeDocumentMoniker": "Profiles\\F124\\F124UdpReceiver.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\F124\\F124UdpReceiver.cs",
+              "RelativeToolTip": "Profiles\\F124\\F124UdpReceiver.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAADwv94AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:39:08.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ets2ProfileModule.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\ETS2\\Ets2ProfileModule.cs",
+              "RelativeDocumentMoniker": "Profiles\\ETS2\\Ets2ProfileModule.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\ETS2\\Ets2ProfileModule.cs",
+              "RelativeToolTip": "Profiles\\ETS2\\Ets2ProfileModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:29:40.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ComingSoonProfileModule.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\ComingSoonProfileModule.cs",
+              "RelativeDocumentMoniker": "Profiles\\ComingSoonProfileModule.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Profiles\\ComingSoonProfileModule.cs",
+              "RelativeToolTip": "Profiles\\ComingSoonProfileModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:29:22.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfileManager.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Core\\ProfileManager.cs",
+              "RelativeDocumentMoniker": "Core\\ProfileManager.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Core\\ProfileManager.cs",
+              "RelativeToolTip": "Core\\ProfileManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:25:20.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProfileCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Core\\ProfileCatalog.cs",
+              "RelativeDocumentMoniker": "Core\\ProfileCatalog.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\Core\\ProfileCatalog.cs",
+              "RelativeToolTip": "Core\\ProfileCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T00:24:55.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\GitHomePrime\\Practicas\\NET\\FlashTelemetry\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T00:23:33.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
