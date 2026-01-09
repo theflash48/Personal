@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -14,7 +15,6 @@ namespace FlashTelemetry.UI
         private readonly AudioDeviceService _devices;
         private readonly TtsService _tts;
         private readonly AudioPlayer _player;
-        private readonly DiscordHotkeys _discord;
 
         private RadioSettings _settings;
         private ObservableCollection<RadioAlias> _aliases = new();
@@ -28,7 +28,6 @@ namespace FlashTelemetry.UI
             _devices = devices;
             _tts = tts;
             _player = player;
-            _discord = new DiscordHotkeys(_ => { });
 
             _settings = _store.GetForProfile(_profileId);
 
@@ -36,7 +35,7 @@ namespace FlashTelemetry.UI
 
             BtnTestVoice.Click += async (_, __) => await TestVoiceAsync();
 
-            // tests con retardo para poder cambiar el foco si hace falta
+            // Tests con retardo para poder cambiar foco si quieres observarlo en otra app
             BtnTestMute.Click += async (_, __) => await TestHotkeyDelayedAsync(TxtMuteHotkey.Text, BtnTestMute);
             BtnTestDeafen.Click += async (_, __) => await TestHotkeyDelayedAsync(TxtDeafenHotkey.Text, BtnTestDeafen);
 
@@ -97,6 +96,7 @@ namespace FlashTelemetry.UI
             TxtWhisperExe.Text = _settings.WhisperExePath;
             TxtWhisperModel.Text = _settings.WhisperModelPath;
             TxtWhisperLang.Text = string.IsNullOrWhiteSpace(_settings.WhisperLanguage) ? "es" : _settings.WhisperLanguage;
+            TxtWhisperArgs.Text = _settings.WhisperExtraArgs ?? "";
 
             _aliases = new ObservableCollection<RadioAlias>(_settings.Aliases ?? new());
             GridAliases.ItemsSource = _aliases;
@@ -182,6 +182,7 @@ namespace FlashTelemetry.UI
             _settings.WhisperExePath = TxtWhisperExe.Text ?? "";
             _settings.WhisperModelPath = TxtWhisperModel.Text ?? "";
             _settings.WhisperLanguage = string.IsNullOrWhiteSpace(TxtWhisperLang.Text) ? "es" : TxtWhisperLang.Text.Trim();
+            _settings.WhisperExtraArgs = TxtWhisperArgs.Text ?? "";
 
             _settings.Aliases = _aliases.ToList();
 
