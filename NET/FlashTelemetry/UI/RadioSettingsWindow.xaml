@@ -1,0 +1,193 @@
+<Window x:Class="FlashTelemetry.UI.RadioSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Team Radio"
+        Width="820" Height="650"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="12" MinWidth="760">
+
+                <!-- Audio -->
+                <GroupBox Header="Audio" Margin="0,0,0,12">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="130"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Salida:" VerticalAlignment="Center"/>
+                        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CmbOutput" MinWidth="360"/>
+                        <Button Grid.Row="0" Grid.Column="2" x:Name="BtnTestVoice" Content="Probar voz" Margin="10,0,0,0"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Micrófono:" VerticalAlignment="Center" Margin="0,8,0,0"/>
+                        <ComboBox Grid.Row="1" Grid.Column="1" x:Name="CmbInput" MinWidth="360" Margin="0,8,0,0"/>
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Volumen voz (TTS):" VerticalAlignment="Center" Margin="0,14,0,0"/>
+                        <Slider Grid.Row="2" Grid.Column="1" x:Name="SldTtsVol" Minimum="0" Maximum="1" Margin="0,14,0,0"/>
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Volumen pitidos:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                        <Slider Grid.Row="3" Grid.Column="1" x:Name="SldBeepVol" Minimum="0" Maximum="1" Margin="0,10,0,0"/>
+                    </Grid>
+                </GroupBox>
+
+                <!-- Discord -->
+                <GroupBox Header="Discord (hotkeys globales)" Margin="0,0,0,12">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="130"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Acción al abrir:" VerticalAlignment="Center"/>
+                        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CmbDiscordAction" MinWidth="360"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Hotkey mute:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="TxtMuteHotkey" MinWidth="360" Margin="0,10,0,0"/>
+                        <Button Grid.Row="1" Grid.Column="2" x:Name="BtnTestMute" Content="Test" Margin="10,10,0,0"/>
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Hotkey deafen:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="TxtDeafenHotkey" MinWidth="360" Margin="0,10,0,0"/>
+                        <Button Grid.Row="2" Grid.Column="2" x:Name="BtnTestDeafen" Content="Test" Margin="10,10,0,0"/>
+                    </Grid>
+                </GroupBox>
+
+                <!-- Sonidos -->
+                <GroupBox Header="Sonidos (WAV)" Margin="0,0,0,12">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="110"/>
+                            <ColumnDefinition Width="110"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="OPEN:" VerticalAlignment="Center"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="TxtOpenWav" MinWidth="320"/>
+                        <Button Grid.Row="0" Grid.Column="2" x:Name="BtnPickOpenWav" Content="Elegir" Margin="10,0,0,0"/>
+                        <Button Grid.Row="0" Grid.Column="3" x:Name="BtnTestOpenWav" Content="Test OPEN" Margin="10,0,0,0"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="CLOSE:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="TxtCloseWav" MinWidth="320" Margin="0,10,0,0"/>
+                        <Button Grid.Row="1" Grid.Column="2" x:Name="BtnPickCloseWav" Content="Elegir" Margin="10,10,0,0"/>
+                        <Button Grid.Row="1" Grid.Column="3" x:Name="BtnTestCloseWav" Content="Test CLOSE" Margin="10,10,0,0"/>
+                    </Grid>
+                </GroupBox>
+
+                <!-- Grabación -->
+                <GroupBox Header="Grabación (WAV)" Margin="0,0,0,12">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="130"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Carpeta:" VerticalAlignment="Center"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="TxtRecordingsFolder" MinWidth="360"/>
+                        <Button Grid.Row="0" Grid.Column="2" x:Name="BtnPickRecordingsFolder" Content="Elegir" Margin="10,0,0,0"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="1" Foreground="Gray" TextWrapping="Wrap"
+                                   Text="Si lo dejas vacío, se guarda en %AppData%\\FlashTelemetry\\recordings\\&lt;profileId&gt;"
+                                   Margin="0,4,0,0"/>
+                    </Grid>
+                </GroupBox>
+
+                <!-- STT -->
+                <GroupBox Header="STT (whisper.cpp)" Margin="0,0,0,12">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="130"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Activar STT:" VerticalAlignment="Center"/>
+                        <CheckBox Grid.Row="0" Grid.Column="1" x:Name="ChkSttEnabled" VerticalAlignment="Center"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="whisper-cli.exe:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="TxtWhisperExe" MinWidth="360" Margin="0,10,0,0"/>
+                        <Button Grid.Row="1" Grid.Column="2" x:Name="BtnPickWhisperExe" Content="Elegir" Margin="10,10,0,0"/>
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Modelo .bin:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="TxtWhisperModel" MinWidth="360" Margin="0,10,0,0"/>
+                        <Button Grid.Row="2" Grid.Column="2" x:Name="BtnPickWhisperModel" Content="Elegir" Margin="10,10,0,0"/>
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Idioma:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" x:Name="TxtWhisperLang" Width="90" Margin="0,10,0,0"/>
+                    </Grid>
+                </GroupBox>
+
+                <!-- Aliases -->
+                <GroupBox Header="Alias pilotos" Margin="0,0,0,12">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid Grid.Row="0" x:Name="GridAliases"
+                                  AutoGenerateColumns="False"
+                                  CanUserAddRows="False"
+                                  HeadersVisibility="Column"
+                                  IsReadOnly="False"
+                                  Margin="0,0,0,8">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Original" Binding="{Binding Original}" Width="*"/>
+                                <DataGridTextColumn Header="Alias" Binding="{Binding Alias}" Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button x:Name="BtnAddAlias" Content="Añadir" Width="90" Margin="0,0,10,0"/>
+                            <Button x:Name="BtnRemoveAlias" Content="Borrar" Width="90"/>
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <DockPanel Grid.Row="1" Margin="12">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="BtnCancel" Content="Cancelar" Width="120" Margin="0,0,8,0" IsCancel="True"/>
+                <Button x:Name="BtnSave" Content="Guardar" Width="120" IsDefault="True"/>
+            </StackPanel>
+        </DockPanel>
+
+    </Grid>
+</Window>

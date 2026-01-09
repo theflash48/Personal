@@ -21,6 +21,9 @@ namespace FlashTelemetry.Net
         public event Func<SetProfileMessage, Task>? SetProfileReceived;
         public event Func<PingMessage, Task>? PingReceived;
 
+        // NUEVO
+        public event Func<PttToggleMessage, Task>? PttToggleReceived;
+
         public UdpControlServer(int port)
         {
             _port = port;
@@ -108,6 +111,37 @@ namespace FlashTelemetry.Net
 
                     if (SetProfileReceived != null)
                         await SetProfileReceived.Invoke(sp);
+                }
+                else if (msg.StartsWith("PTT_TOGGLE", StringComparison.OrdinalIgnoreCase))
+                {
+                    var ptt = new PttToggleMessage(
+                        Remote: res.RemoteEndPoint,
+                        Token: ParseStr(msg, "token") ?? "0"
+                    );
+
+                    if (PttToggleReceived != null)
+                        await PttToggleReceived.Invoke(ptt);
+                    else
+                        Log?.Invoke($"[CTRL] RX {res.RemoteEndPoint.Address}:{res.RemoteEndPoint.Port}: {msg}");
+                }
+                else if (msg.StartsWith("PTT", StringComparison.OrdinalIgnoreCase))
+                {
+                    // Compat: "PTT state=1" (solo disparamos toggle cuando state==1)
+                    int state = ParseInt(msg, "state", int.MinValue);
+                    if (state == int.MinValue) state = ParseInt(msg, "v", 0);
+
+                    if (state == 1)
+                    {
+                        var ptt = new PttToggleMessage(
+                            Remote: res.RemoteEndPoint,
+                            Token: ParseStr(msg, "token") ?? "0"
+                        );
+
+                        if (PttToggleReceived != null)
+                            await PttToggleReceived.Invoke(ptt);
+                        else
+                            Log?.Invoke($"[CTRL] RX {res.RemoteEndPoint.Address}:{res.RemoteEndPoint.Port}: {msg}");
+                    }
                 }
                 else if (msg.StartsWith("PING", StringComparison.OrdinalIgnoreCase))
                 {

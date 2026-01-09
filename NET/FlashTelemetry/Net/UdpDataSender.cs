@@ -9,7 +9,7 @@ namespace FlashTelemetry.Net
     public sealed class UdpDataSender : IDisposable
     {
         private readonly UdpClient _udp = new();
-        private Timer? _timer;
+        private System.Threading.Timer? _timer;
 
         private IPEndPoint? _target;
         private Func<string>? _buildPayload;
@@ -30,7 +30,7 @@ namespace FlashTelemetry.Net
             int periodMs = Math.Max(1, 1000 / hz);
 
             Stop();
-            _timer = new Timer(_ => Tick(), null, 0, periodMs);
+            _timer = new System.Threading.Timer(_ => Tick(), null, 0, periodMs);
             _log?.Invoke($"[DATA] Start {hz} Hz (period={periodMs}ms)");
         }
 

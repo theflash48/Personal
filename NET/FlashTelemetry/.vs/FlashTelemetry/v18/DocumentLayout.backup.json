@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\radioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\radioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\ui\\mainwindow.radio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:ui\\mainwindow.radio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\ui\\radiosettingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:ui\\radiosettingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\keysender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\keysender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\discordhotkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\discordhotkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\net\\udpdatasender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:net\\udpdatasender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\radiosettingsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\radiosettingsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\audiodeviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\audiodeviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\profilecatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\profilecatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\whisperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\whisperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\ttsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\ttsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\radiosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\radiosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\radiosession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\radiosession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\radiorecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\radiorecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\hotkeyparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\hotkeyparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\core\\radio\\audiodeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:core\\radio\\audiodeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\ui\\radiosettingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:ui\\radiosettingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\net\\udpcontrolserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:net\\udpcontrolserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\protocol\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:protocol\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\protocol\\controlprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:protocol\\controlprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|c:\\users\\pablo\\documents\\github\\personal\\net\\flashtelemetry\\flashtelemetry.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27A696F0-98B8-4287-82A7-886791170491}|FlashTelemetry.csproj|solutionrelative:flashtelemetry.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAhwB4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T19:59:16.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RadioEngine.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioEngine.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\RadioEngine.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioEngine.cs*",
+              "RelativeToolTip": "Core\\Radio\\RadioEngine.cs*",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAwwOkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T19:59:05.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AudioPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\AudioPlayer.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\AudioPlayer.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\AudioPlayer.cs*",
+              "RelativeToolTip": "Core\\Radio\\AudioPlayer.cs*",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAwwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:36:14.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.Radio.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\UI\\MainWindow.Radio.cs",
+              "RelativeDocumentMoniker": "UI\\MainWindow.Radio.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\UI\\MainWindow.Radio.cs",
+              "RelativeToolTip": "UI\\MainWindow.Radio.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:18:58.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiscordHotkeys.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\DiscordHotkeys.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\DiscordHotkeys.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\DiscordHotkeys.cs",
+              "RelativeToolTip": "Core\\Radio\\DiscordHotkeys.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T10:46:54.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RadioSettingsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\UI\\RadioSettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\RadioSettingsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\UI\\RadioSettingsWindow.xaml.cs",
+              "RelativeToolTip": "UI\\RadioSettingsWindow.xaml.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAIwOwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:29:52.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WhisperService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\WhisperService.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\WhisperService.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\WhisperService.cs",
+              "RelativeToolTip": "Core\\Radio\\WhisperService.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T15:03:50.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfileCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\ProfileCatalog.cs",
+              "RelativeDocumentMoniker": "Core\\ProfileCatalog.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\ProfileCatalog.cs",
+              "RelativeToolTip": "Core\\ProfileCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T09:42:53.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-07T15:57:06.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UdpDataSender.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Net\\UdpDataSender.cs",
+              "RelativeDocumentMoniker": "Net\\UdpDataSender.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Net\\UdpDataSender.cs",
+              "RelativeToolTip": "Net\\UdpDataSender.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T12:35:22.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T12:35:06.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KeySender.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\KeySender.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\KeySender.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\KeySender.cs",
+              "RelativeToolTip": "Core\\Radio\\KeySender.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAA4wKEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T10:44:24.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RadioSettingsStore.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioSettingsStore.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\RadioSettingsStore.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioSettingsStore.cs",
+              "RelativeToolTip": "Core\\Radio\\RadioSettingsStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:32:47.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-09T12:34:46.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TtsService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\TtsService.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\TtsService.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\TtsService.cs",
+              "RelativeToolTip": "Core\\Radio\\TtsService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:36:40.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AudioDeviceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\AudioDeviceInfo.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\AudioDeviceInfo.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\AudioDeviceInfo.cs",
+              "RelativeToolTip": "Core\\Radio\\AudioDeviceInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:33:11.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RadioSettings.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioSettings.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\RadioSettings.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioSettings.cs",
+              "RelativeToolTip": "Core\\Radio\\RadioSettings.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:32:26.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RadioSession.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioSession.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\RadioSession.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioSession.cs",
+              "RelativeToolTip": "Core\\Radio\\RadioSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:47:21.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RadioRecorder.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioRecorder.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\RadioRecorder.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\RadioRecorder.cs",
+              "RelativeToolTip": "Core\\Radio\\RadioRecorder.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T19:58:48.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HotkeyParser.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\HotkeyParser.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\HotkeyParser.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\HotkeyParser.cs",
+              "RelativeToolTip": "Core\\Radio\\HotkeyParser.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T10:46:27.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AudioDeviceService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\AudioDeviceService.cs",
+              "RelativeDocumentMoniker": "Core\\Radio\\AudioDeviceService.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Core\\Radio\\AudioDeviceService.cs",
+              "RelativeToolTip": "Core\\Radio\\AudioDeviceService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:36:03.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RadioSettingsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\UI\\RadioSettingsWindow.xaml",
+              "RelativeDocumentMoniker": "UI\\RadioSettingsWindow.xaml",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\UI\\RadioSettingsWindow.xaml",
+              "RelativeToolTip": "UI\\RadioSettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-07T16:29:02.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UdpControlServer.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Net\\UdpControlServer.cs",
+              "RelativeDocumentMoniker": "Net\\UdpControlServer.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Net\\UdpControlServer.cs",
+              "RelativeToolTip": "Net\\UdpControlServer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAIBJwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:24:25.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Protocol\\Messages.cs",
+              "RelativeDocumentMoniker": "Protocol\\Messages.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Protocol\\Messages.cs",
+              "RelativeToolTip": "Protocol\\Messages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:46:49.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ControlProtocol.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Protocol\\ControlProtocol.cs",
+              "RelativeDocumentMoniker": "Protocol\\ControlProtocol.cs",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\Protocol\\ControlProtocol.cs",
+              "RelativeToolTip": "Protocol\\ControlProtocol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:24:12.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FlashTelemetry.csproj",
+              "DocumentMoniker": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\FlashTelemetry.csproj",
+              "RelativeDocumentMoniker": "FlashTelemetry.csproj",
+              "ToolTip": "C:\\Users\\pablo\\Documents\\GitHub\\Personal\\NET\\FlashTelemetry\\FlashTelemetry.csproj",
+              "RelativeToolTip": "FlashTelemetry.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-07T16:16:26.027Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

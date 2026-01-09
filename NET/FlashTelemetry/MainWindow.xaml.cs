@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Windows;
 using FlashTelemetry.Core;
+using FlashTelemetry.Core.Radio;
 using FlashTelemetry.Net;
 using FlashTelemetry.Profiles;
 using FlashTelemetry.Profiles.ETS2;
@@ -15,10 +17,8 @@ namespace FlashTelemetry
         private const int CtrlPort = 5001;
         private const int DataPort = 5002;
 
-        // Tu elección actual: 200 Hz
         private const int DataHz = 120;
 
-        // IP fija del ESP32 (confirmada)
         private static readonly IPAddress Esp32FixedIp = IPAddress.Parse("192.168.0.33");
 
         private readonly ProfileManager _profiles = new();
@@ -32,6 +32,9 @@ namespace FlashTelemetry
 
         private uint _seq;
 
+        // RADIO runtime
+        private readonly RadioEngine _radio;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -40,6 +43,10 @@ namespace FlashTelemetry
                 profileManager: _profiles,
                 log: AppendLog
             );
+
+            // Asegura store único (el mismo que usa el UI partial)
+            _radioStore ??= new RadioSettingsStore();
+            _radio = new RadioEngine(_radioStore, () => _profiles.ActiveProfileId, AppendLog);
 
             TxtLastEsp.Text = "-";
             TxtActiveProfile.Text = $"{_profiles.ActiveProfileName} ({_profiles.ActiveProfileId})";
@@ -77,7 +84,6 @@ namespace FlashTelemetry
                     AppendLog($"[CTRL] HELLO de {hello.DeviceId} sel={hello.SelectedProfileId} proto={hello.Proto}");
                 });
 
-                // Responder con el perfil activo actual de la base
                 string ack = ControlProtocol.BuildHelloAck(_profiles.ActiveProfileId);
                 await _ctrl.SendAsync(ack, hello.Remote);
             };
@@ -91,7 +97,6 @@ namespace FlashTelemetry
 
                 bool ok = _profiles.TrySetActive(msg.ProfileId);
 
-                // Confirmación: siempre respondemos con el perfil realmente activo
                 string reply = ControlProtocol.BuildProfileAck(_profiles.ActiveProfileId);
                 await _ctrl.SendAsync(reply, msg.Remote);
 
@@ -105,6 +110,26 @@ namespace FlashTelemetry
                 await _ctrl.SendAsync(pong, ping.Remote);
             };
 
+            // PTT toggle (IMPORTANTE: NO bloquear RxLoop y NO dejar que una excepción mate el listener)
+            _ctrl.PttToggleReceived += pttMsg =>
+            {
+                if (!_started) return Task.CompletedTask;
+
+                _ = Task.Run(async () =>
+                {
+                    try
+                    {
+                        await _radio.ToggleAsync();
+                    }
+                    catch (Exception ex)
+                    {
+                        AppendLog($"[RADIO] ERROR en ToggleAsync: {ex.Message}");
+                    }
+                });
+
+                return Task.CompletedTask;
+            };
+
             // Cuando cambia el perfil activo, actualiza UI y runtime
             _profiles.ActiveProfileChanged += id =>
             {
@@ -112,6 +137,12 @@ namespace FlashTelemetry
                 {
                     TxtActiveProfile.Text = $"{_profiles.ActiveProfileName} ({_profiles.ActiveProfileId})";
                     AppendLog($"[CORE] Perfil activo cambiado a {_profiles.ActiveProfileName} ({id})");
+
+                    // sincroniza combo
+                    CmbProfiles.SelectedValue = id;
+
+                    // refresca UI radio (checkbox/botón) por perfil activo
+                    RefreshRadioUiFromSelectedProfile();
                 });
 
                 _runtime.SwitchTo(id, startIfRunning: _started);
@@ -133,7 +164,7 @@ namespace FlashTelemetry
             AppendLog($"[CORE] START -> CTRL {CtrlPort} / DATA {DataPort} @ {DataHz}Hz -> {Esp32FixedIp}");
         }
 
-        private void BtnStop_Click(object sender, RoutedEventArgs e)
+        private async void BtnStop_Click(object sender, RoutedEventArgs e)
         {
             if (!_started) return;
 
@@ -142,6 +173,9 @@ namespace FlashTelemetry
             _data.Stop();
             _runtime.StopActiveModule();
             _ctrl.Stop();
+
+            // Si estaba grabando, cierra
+            await _radio.ForceCloseAsync();
 
             AppendLog("[CORE] STOP");
         }
@@ -153,7 +187,6 @@ namespace FlashTelemetry
             bool ok = _profiles.TrySetActive(id);
             TxtApplyResult.Text = ok ? "OK" : "No permitido";
 
-            // Si ya hay ESP32, le mandamos el perfil activo real (HelloAck)
             if (_lastEspEndpoint != null)
             {
                 _ = _ctrl.SendAsync(ControlProtocol.BuildHelloAck(_profiles.ActiveProfileId), _lastEspEndpoint);
@@ -162,7 +195,6 @@ namespace FlashTelemetry
 
         private string BuildDataPayload()
         {
-            // Solo enviamos DATA si ya hemos visto al ESP32 (HELLO)
             if (_lastEspEndpoint == null) return string.Empty;
 
             _seq++;
@@ -172,7 +204,6 @@ namespace FlashTelemetry
             if (!module.TryBuildDataPayload(_seq, out string payload))
                 return string.Empty;
 
-            // Log suave cada ~2s a 200Hz (400 paquetes)
             if (_seq % 400 == 0)
                 Dispatcher.Invoke(() => AppendLog($"[DATA] TX seq={_seq} (p={module.ProfileId})"));
 
@@ -187,11 +218,14 @@ namespace FlashTelemetry
                 TxtLog.ScrollToEnd();
             });
         }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            try { _radio.Dispose(); } catch { }
+            base.OnClosed(e);
+        }
     }
 
-    /// <summary>
-    /// Controla el módulo del perfil activo (Start/Stop/Switch).
-    /// </summary>
     internal sealed class ProfileRuntime
     {
         private readonly ProfileManager _profileManager;
@@ -226,7 +260,6 @@ namespace FlashTelemetry
 
             _log($"[RT] Switch {ActiveModule.Name} -> {next.Name}");
 
-            // Parar el actual (si estaba corriendo)
             ActiveModule.Stop();
 
             ActiveModule = next;

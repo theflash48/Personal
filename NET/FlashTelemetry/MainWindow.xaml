@@ -1,56 +1,53 @@
-﻿<Window x:Class="FlashTelemetry.MainWindow"
+<Window x:Class="FlashTelemetry.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Base (CTRL UDP 5001)" Height="650" Width="1100"
-        WindowStartupLocation="CenterScreen">
-    <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        Title="FlashTelemetry" Height="720" Width="980"
+        WindowStartupLocation="CenterScreen"
+        Loaded="MainWindow_Loaded">
 
-        <!-- Top bar -->
-        <DockPanel Grid.Row="0" LastChildFill="True">
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
-                <Button Name="BtnStart" Content="Start CTRL" Width="120" Margin="0,0,8,0" Click="BtnStart_Click"/>
-                <Button Name="BtnStop" Content="Stop" Width="120" Click="BtnStop_Click"/>
+    <DockPanel Margin="12">
+
+        <StackPanel DockPanel.Dock="Top" Orientation="Vertical">
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                <TextBlock Text="Último wheel device:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBlock x:Name="TxtLastEsp" VerticalAlignment="Center" Width="260"/>
+
+                <TextBlock Text="Perfil activo:" VerticalAlignment="Center" Margin="18,0,8,0"/>
+                <TextBlock x:Name="TxtActiveProfile" VerticalAlignment="Center" Width="220"/>
+
+                <Button Content="START" Width="110" Margin="18,0,8,0" Click="BtnStart_Click"/>
+                <Button Content="STOP" Width="110" Click="BtnStop_Click"/>
             </StackPanel>
 
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Right">
-                <TextBlock Text="Perfil activo: " VerticalAlignment="Center" Margin="0,0,6,0"/>
-                <TextBlock Name="TxtActiveProfile" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,20,0"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                <TextBlock Text="Perfil:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <ComboBox x:Name="CmbProfiles" Width="320" Margin="0,0,8,0"/>
+                <Button Content="Aplicar" Width="110" Margin="0,0,12,0" Click="BtnApplyProfile_Click"/>
 
-                <TextBlock Text="Último ESP32: " VerticalAlignment="Center" Margin="0,0,6,0"/>
-                <TextBlock Name="TxtLastEsp" FontWeight="Bold" VerticalAlignment="Center"/>
+                <TextBlock Text="Resultado:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBlock x:Name="TxtApplyResult" VerticalAlignment="Center" Width="160" Foreground="Gray" Text="-"/>
             </StackPanel>
-        </DockPanel>
 
-        <!-- Profile chooser -->
-        <GroupBox Grid.Row="1" Header="Cambiar perfil activo (manual, para pruebas)" Margin="0,10,0,10">
-            <Grid Margin="10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="300"/>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                <CheckBox x:Name="ChkRadioEnabled" Content="Team Radio habilitado" VerticalAlignment="Center"
+                          Margin="0,0,12,0"
+                          Checked="ChkRadioEnabled_Checked"
+                          Unchecked="ChkRadioEnabled_Unchecked"/>
 
-                <ComboBox Name="CmbProfiles" Grid.Column="0" Height="28" />
+                <Button x:Name="BtnRadio" Content="Ajustes…" Width="140" Click="BtnRadio_Click"/>
+            </StackPanel>
 
-                <Button Name="BtnApplyProfile" Grid.Column="1" Content="Aplicar" Width="120" Margin="10,0,0,0"
-                        Click="BtnApplyProfile_Click"/>
+        </StackPanel>
 
-                <TextBlock Name="TxtApplyResult" Grid.Column="2" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            </Grid>
-        </GroupBox>
-
-        <!-- Log -->
-        <TextBox Name="TxtLog" Grid.Row="2"
-                 FontFamily="Consolas"
+        <TextBox x:Name="TxtLog"
+                 IsReadOnly="True"
+                 AcceptsReturn="True"
                  VerticalScrollBarVisibility="Auto"
                  HorizontalScrollBarVisibility="Auto"
-                 IsReadOnly="True"
-                 TextWrapping="NoWrap"/>
-    </Grid>
+                 TextWrapping="NoWrap"
+                 FontFamily="Consolas"
+                 FontSize="12"/>
+
+    </DockPanel>
 </Window>

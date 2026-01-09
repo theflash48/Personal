@@ -20,4 +20,10 @@ namespace FlashTelemetry.Protocol
         IPEndPoint Remote,
         int Seq
     );
+
+    // NUEVO
+    public readonly record struct PttToggleMessage(
+        IPEndPoint Remote,
+        string Token
+    );
 }

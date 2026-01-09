@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashTelemetry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8253fe21ae8b7e753cb9fce0aba19532a6a933a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24d585ede25b6ed0d92ff20233415ab1ed547079")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashTelemetry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashTelemetry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

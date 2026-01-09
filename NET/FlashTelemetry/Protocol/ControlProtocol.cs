@@ -10,5 +10,9 @@
 
         public static string BuildPong(int seq)
             => $"PONG seq={seq}";
+
+        // (Opcional futuro) para que la base pueda decirle al ESP si la radio está abierta/cerrada
+        public static string BuildRadioState(bool open)
+            => $"RADIO_STATE open={(open ? 1 : 0)}";
     }
 }
